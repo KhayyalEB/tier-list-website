@@ -1,16 +1,23 @@
-# React + Vite
+My Tier List
+A web application that allows users to create and manage custom tier lists by uploading images and arranging them through drag-and-drop interactions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](image-2.png)
 
-Currently, two official plugins are available:
+Installation
+Clone the repository:
+git clone https://github.com/KhayyalEB/tier-list-website.git
+Open the project folder in VS Code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Install dependencies:
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+Start the development server:
+npm run dev
+Features
+Create custom tiers
+Upload images
+Drag and drop images between tiers
+Save screenshots
+Copy tier lists to the clipboard
+Import and export tier lists
+Reset the tier list
